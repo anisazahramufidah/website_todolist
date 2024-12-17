@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <i><b><div class="logo">girlT0D0LIST</div></b></i>
+        <button class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul id="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Todo List -->
+    <div class="todo-container">
+        <div class="flex-margin-top">
+            <h1>Todo List</h1>
+            <h5 style="text-align: center;">Buat jadwal apapun, masukkan sesuai kebutuhanmu saat ini princess</h5>
+            <br>
+            <input type="text" id="taskInput" placeholder="Tambah task baru">
+            <br><br>
+            <button id="addTaskButton">Tambah Task</button>
+            <ul id="taskList"></ul>
+        </div>
+    </div>
+
+    <!-- JavaScript untuk Responsif Navbar dan Todo List -->
+    <script src="script.js"></script>
+</body>
+</html>
